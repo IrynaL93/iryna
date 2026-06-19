@@ -893,15 +893,16 @@ select:focus {
   }
 
  .hero-visual {
-  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .hero-visual img {
-  width: 100%;
+  width: min(100%, 340px);
   height: auto;
   display: block;
   border-radius: 46px 8px 46px 8px;
-  object-position: center top;
 }
   .values,
   .education-path,
