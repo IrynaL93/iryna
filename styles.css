@@ -892,16 +892,17 @@ select:focus {
     font-size: 0.95rem;
   }
 
-  .hero-visual,
-  .hero-visual img {
-    height: 160px;
-  }
+ .hero-visual {
+  height: auto;
+}
 
-  .hero-visual img {
-    border-radius: 46px 8px 46px 8px;
-    object-position: center top;
-  }
-
+.hero-visual img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 46px 8px 46px 8px;
+  object-position: center top;
+}
   .values,
   .education-path,
   .services-grid,
