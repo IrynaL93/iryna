@@ -891,17 +891,19 @@ select:focus {
     margin-bottom: 22px;
     font-size: 0.95rem;
   }
-
- .hero-visual {
+  
+.hero-visual {
   width: 100%;
-  display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .hero-visual img {
-  width: min(100%, 340px);
+  width: 100%;
+  max-width: 360px;
   height: auto;
   display: block;
+  margin: 0 auto;
   border-radius: 46px 8px 46px 8px;
 }
   .values,
