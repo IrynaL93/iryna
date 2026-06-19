@@ -301,22 +301,19 @@ h3 {
 
 .hero-visual {
   position: relative;
-  align-self: stretch;
-  height: clamp(400px, 42vw, 500px);
-  min-height: 0;
-  animation: fade-in 850ms 120ms ease both;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-visual img {
   width: 100%;
+  max-height: 650px;
   height: auto;
-  min-height: 0;
   object-fit: contain;
-  object-position: center;
   border-radius: 92px 8px 92px 8px;
   box-shadow: var(--shadow);
 }
-
 .section,
 .booking-section {
   width: min(100% - 40px, var(--max-width));
