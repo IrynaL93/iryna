@@ -801,10 +801,6 @@ select:focus {
 }
 
 @media (max-width: 1020px) {
-  .main-nav {
-    display: none;
-  }
-
   .hero,
   .about-grid,
   .cases-section,
@@ -821,18 +817,19 @@ select:focus {
     max-width: 760px;
   }
 
-  .hero-visual,
+  .hero-visual {
+    height: auto;
+  }
+
   .hero-visual img {
-    height: 420px;
+    width: 100%;
+    max-width: 420px;
+    height: auto;
   }
 
   .education-path,
   .services-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .cases-section .section-heading {
-    max-width: 760px;
   }
 
   .booking-copy {
